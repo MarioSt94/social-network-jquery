@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  max-width: 1800px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* LOGIN-REGISTER */
+
+#login-register {
+  position: relative;
+}
+
+.navlogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  padding: 15px 30px;
+}
+
+#login {
+  color: white;
+}
+
+#register {
+  max-width: 500px;
+  margin-left: auto;
+}
+
+#register form {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#register form input {
+  margin-bottom: 10px;
+}
+
+#register-btn {
+  max-width: 100px;
+  align-self: flex-end;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+}
+
+#home-nav {
+  height: 70px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home-nav * {
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+}
+
+#search {
+  position: relative;
+}
+
+#search input {
+  padding: 7px 30px;
+  border-radius: 0px;
+  color: black;
+  border: 0;
+}
+
+.result-search {
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  background-color: aliceblue;
+  z-index: 1000;
+}
+
+#results {
+  list-style: none;
+}
+
+.result a {
+  padding-left: 5px !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.search-btn {
+  background-color: darkblue;
+  border-radius: 0px;
+  border: 0;
+  padding: 7px 14px !important;
+}
+
+#left-sidebar {
+  width: 24%;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.new-post {
+  width: 60%;
+  max-width: 700px;
+  background-color: rgb(216, 216, 216);
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  width: 60%;
+  max-width: 700px;
+  background-color: rgb(216, 216, 216);
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-btn {
+  border: none;
+  background: transparent;
+  padding: 5px 15px !important;
+}
+textarea {
+  width: 100%;
+  background-color: rgb(180, 208, 209);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+.post-btn {
+  background: rgb(0, 10, 151);
+  color: aliceblue;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#home-content {
+  position: relative;
+}
+
+#home,
+#myProfile {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+#friends-suggestions {
+  position: absolute;
+  width: 230px;
+  border: 1px solid rgb(0, 0, 83);
+  left: 10px;
+  top: 10px;
+  border-radius: 4px;
+}
+
+#friends-suggestions h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#suggestions {
+  background-color: rgb(192, 192, 192);
+  padding: 0;
+  list-style: none;
+  padding-left: 20px;
+}
+
+#suggestions li {
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  padding-bottom: auto;
+}
+
+#suggestions li a {
+  margin: 15px 0;
+}
+
+#suggestions li button {
+  margin-left: 20px;
+  padding: 6px 12px;
+  border: none;
+  color: white;
+  background-color: rgb(0, 10, 151);
+  border-radius: 4px;
+}
+
+.post-list {
+  padding: 0;
+}
+
+.post {
+  background-color: rgb(236, 236, 236);
+  padding: 14px 7px;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 15px 0;
+}
+
+.post h4 {
+  color: rgb(32, 32, 32);
+  font-size: 18px;
+  margin: 0;
+  display: inline-block;
+}
+
+.post a {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  text-decoration: underline;
+}
+
+hr {
+  border-width: 0.5px;
+  background-color: rgb(32, 32, 32);
+}
+
+.post p {
+  margin: 3px;
+  color: rgb(32, 32, 32);
+  display: inline-block;
+}
+
+.post-content {
+  color: rgb(32, 32, 32) !important;
+  font-size: 18px;
+  margin: 15px 0 !important;
+}
+
+.post-content img {
+  max-width: 600px;
+  max-height: 400px;
+  display: block;
+  margin: auto;
+}
+
+.like-btn {
+  background: rgb(0, 10, 151);
+  border: none;
+  width: 100%;
+  padding: 4px 8px;
+
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 4px;
+}
+
+.post-comment-section h5 {
+  color: rgb(46, 46, 46);
+  margin: 0;
+  margin-top: 5px;
+}
+
+.your-comment {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.your-comment-field {
+  width: 75%;
+  height: 30px;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  background-color: rgb(180, 208, 209);
+  padding: 0;
+  padding: 0 10px 0 10px;
+}
+
+.your-comment-submit {
+  padding: 0;
+  width: 24%;
+  height: 30px;
+  border-radius: 0 15px 15px 0;
+  border: none;
+  color: rgb(0, 10, 151);
+  background-color: rgb(180, 208, 209);
+}
+
+.comment {
+  margin: 7px 0;
+  min-height: 30px;
+  background-color: rgb(180, 208, 209);
+  border-radius: 7px;
+}
+
+.comment-name-and-date {
+  color: rgb(37, 63, 70) !important;
+}
+
+.comment-content {
+  color: rgb(27, 27, 27) !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.post-liked-by {
+  display: block !important;
+}
+
+#networkimg {
+  position: absolute;
+  max-height: 130%;
+  max-width: 50%;
+}
+
+#h2title {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+#show-user {
+  height: 50px;
+  background-color: black;
+  text-align: center;
+}

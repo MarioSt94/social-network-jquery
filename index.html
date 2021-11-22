@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Social Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="login-register" class="">
+        <div class="navlogin">
+            <h2 id="h2title">The Social Network</h2>
+            <div  id="login">
+                <form action="" class="container">
+                    <label for="email">email:</label>
+                    <input type="email" id="email">
+                    <label for="password">password:</label>
+                    <input type="password" id="password">
+                    <button id="login-btn">login</button>
+                </form>
+            </div>
+        </div>
+        <img id="networkimg" src="https://www.lebow.drexel.edu/sites/default/files/story/1501077931-network.jpg" alt="">
+        <div id="register">
+            <form action="">
+                <label for="name">full name:</label>
+                <input type="text" id="name">
+
+                <label for="email-register">email:</label>
+                <input type="email" id="email-register">
+
+                <label for="password-register">enter password:</label>
+                <input type="password" id="password-register">
+
+                <label for="repeat-password-register">repeat password:</label>
+                <input type="password" id="repeat-password-register">
+
+                <button id="register-btn">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="home" class="hidden">
+        
+        <div id="home-nav" class='nav'></div>
+        <div id="home-content">
+            <div id="friends-suggestions">
+                <h2>People you may know</h2>
+                <ol id="suggestions">
+                </ol>
+            </div>
+            <div class="new-post">
+                <textarea name="" cols="30" rows="4" id="post-field-home" placeholder="What do you have in mind?"></textarea>
+                
+                <input type="submit" value="Post" class="post-btn" id="post-btn-home">
+            </div>
+            <div id="main" class="main">
+                <ol class="post-list">
+                </ol>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="myProfile" class="hidden">
+        <div id="home-nav" class='nav'></div>
+        <div id="show-user"></div>
+        <div id="home-content">
+            <div id="my-profile-main" class="main">
+                <ol class="post-list"></ol>
+            </div>
+
+        </div>
+    </section>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
