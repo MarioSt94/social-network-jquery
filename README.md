@@ -1,6 +1,7 @@
 # Social Network JS
 
-This is a exercise written in jQuery.
+Project written in HTML, CSS, JavaScript (jQuery).
+Build from scratch. This is a dummy frontend web app for a social network.
 
 ## Getting started
 
